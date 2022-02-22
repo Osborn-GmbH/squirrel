@@ -5,7 +5,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "docusaurus build",
+    "build": "docusaurus build && rm -rf ../d605c570fdf1df8af07f87df0de25a6c4d45da3b && mv build ../d605c570fdf1df8af07f87df0de25a6c4d45da3b",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
